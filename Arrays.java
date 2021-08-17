@@ -1,5 +1,3 @@
-package com.estudos;
-
 import java.util.Scanner;
 
 /**
