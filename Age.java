@@ -11,6 +11,7 @@ public class Age {
         LocalDate bday = LocalDate.of(year, month, day);
         int age = Period.between(bday, today).getYears();
 
+        // Condicional para exibir uma mensagem de parabéns
         if (day == today.getDayOfMonth() && month == today.getMonthValue()) {
             System.out.println("Parabéns! Você está fazendo " + age + " anos =)");
         } else {
