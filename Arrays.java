@@ -41,7 +41,7 @@ public class Arrays {
         System.out.print("Nome: ");
         search = scan.next();
 
-        // Um bloco try... catch pra evitar a finalizacao do programa no caso de um input incorreto.
+        // Um bloco try... catch pra evitar a finalização do programa no caso de um input incorreto.
         try {
             for (int i = 0; i < name.length; i++) {
                 if (search.equals(name[i])) {
